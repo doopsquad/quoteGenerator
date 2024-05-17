@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "Poetsen One";
+}
+
+.quote-holder {
+    margin: 10rem auto;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 5px 5px 12px gray;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: auto;
+    max-width: 1000px;
+    height: fit-content;
+}
+
+#quote-generator {
+    border-radius: 15px white solid;
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    font-size: 1.5rem;
+    box-shadow: 5px 5px rgba(44, 31, 31, 0);
+}
+
+#quote-generator:active {
+    background-color: rgb(119, 110, 97);
+    color: black;
+}
+
+#quote {
+    font-size: 3rem;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+#author {
+    font-size: 2rem;
+    color: gray;
+    margin: 1rem 0 1rem;
+}
+
